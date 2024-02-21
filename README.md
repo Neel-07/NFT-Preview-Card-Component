@@ -18,7 +18,7 @@ For the NFT preview card component project, my main objective was to craft a vis
   
 ### Screenshot
 
-![](./nft-preview-card-component/design/desktop-design.jpg)
+![](./design/desktop-design.jpg)
 
 ### Links
 - Live Site URL: [Click here](https://neel-07.github.io/)
