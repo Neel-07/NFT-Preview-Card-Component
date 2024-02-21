@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    background-color:hsl(217, 54%, 11%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+   background-color: hsl(216, 50%, 16%);
+   height:570px;
+   max-width:340px;
+   border-radius:10px;
+   padding:20px;
+}
+
+#main_img{
+    height:300px;
+    width:300px;
+    display:flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+h1{
+    font-size:20px;
+    font-weight:600;
+    color: hsl(0, 0%, 100%);
+    font-family: "Outfit", sans-serif;
+    padding:20px 2px;
+}
+
+p{
+    font-size: 18px;
+    font-weight:300;
+    color:hsl(215, 51%, 70%);
+    font-family: "Outfit", sans-serif;
+    padding:0px 2px;
+    padding-bottom:20px;
+    
+}
+
+.flex{
+    display:flex;
+    justify-content: space-between;
+    border-bottom:1px solid hsl(215, 32%, 27%);
+    padding-bottom:20px;
+}
+
+.eth span{
+    color:hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
+}
+
+.clk span{
+    color:hsl(215, 51%, 70%);
+    font-weight:400;
+    font-family: "Outfit", sans-serif;
+}
+.author{
+    padding:20px 0px;
+    display:flex;
+    align-content: center;
+}
+.author img{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    border:1px solid white;
+}
+
+.author span{
+    font-family: "Outfit", sans-serif;
+    font-weight:400;
+    color:hsl(215, 51%, 70%);
+    padding-left: 10px;
+    padding-top:5px
+}
+
+#name{
+    padding:5px 4px;
+    color: hsl(0, 0%, 100%);
+    font-family: "Outfit", sans-serif;
+}
